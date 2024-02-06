@@ -60,6 +60,7 @@ client.on(Events.MessageCreate, (message) => {
 
             if(steamid.split("").length < 17) {
                 message.reply("https://tenor.com/view/ngada-ngada-lu-anwar-bab-starhits-sembarangan-aja-jangan-bohong-deh-gif-19874811")
+                return
             }; 
                     
             db.get('SELECT * FROM whitelist WHERE discord_id = ?', [discordid], (err, row) => {
