@@ -1,0 +1,17 @@
+{
+    "discord": {
+        "token": "DISCORD_TOKEN",
+        "guild": "DISCORD_GUILD_ID",
+        "prefix": "!",
+        "member_roles": "DISCORD_MEMBER_ROLE_TO_ACCESS_WHITELIST_COMMAND",
+        "channel_cmd": "DISCORD_CHANNEL_FOR_COMMANDS",
+        "channel_whitelist_log": "",
+        "channel_kick_log": ""
+    },
+    "game": {
+        "host": "127.0.0.1",
+        "game_port": 8211,
+        "rcon_port": 25575,
+        "rcon_password": ""
+    }
+}

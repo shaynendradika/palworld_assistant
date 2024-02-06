@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "gamedig": "^5.0.0-beta.2",
+    "minecraft-rcon-client": "^2.1.2",
+    "node-schedule": "^2.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
